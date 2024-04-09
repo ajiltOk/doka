@@ -156,12 +156,12 @@ TypeScript имеет некоторые специальные правила �
         x: number;
         y: number;
       }
-
+   
     function printCoord(pt: Point) {
         console.log("The coordinate's x value is " + pt.x);
         console.log("The coordinate's y value is " + pt.y);
     }
-
+   
     printCoord({ x: 100, y: 100 });
 
 /*Types и Interfaces очень похожи и во многих случаях можно свободно выбирать между ними.
